@@ -1,0 +1,1331 @@
+----------------------------------------------------------------------------------------------------
+PubMed: 52 entries
+----------------------------------------------------------------------------------------------------
+1) Title: PINet: Privileged Information Improve the Interpretablity and generalization of structural MRI in Alzheimer's Disease.
+
+Authors: Tang, Zijia ; Zhang, Tonglin ; Song, Qianqian ; Su, Jing ; Yang, Baijian ; 
+
+Summary:
+The irreversible and progressive atrophy by Alzheimer's Disease resulted in continuous decline in
+thinking and behavioral skills. To date, CNN classifiers were widely applied to assist the early
+diagnosis of AD and its associated abnormal structures. However, most existing black-box CNN
+classifiers relied heavily on the limited MRI scans, and used little domain knowledge from the
+previous clinical findings. In this study, we proposed a framework, named as <i>PINet</i>, to
+consider the previous domain knowledge as a <i>Privileged Information (PI)</i>, and open the black-
+box in the prediction process. The input domain knowledge guides the neural network to learn
+representative features and introduced intepretability for further analysis. <i>PINet</i> used a
+Transformer-like fusion module <i>Privileged Information Fusion (PIF)</i> to iteratively calculate
+the correlation of the features between image features and PI features, and project the features
+into a latent space for classification. The <i>Pyramid Feature Visualization (PFV)</i> module served
+as a verification to highlight the significant features on the input images. <i>PINet</i> was
+suitable for neuro-imaging tasks and we demonstrated its application in Alzheimer's Disease using
+structural MRI scans from ADNI dataset. During the experiments, we employed the abnormal brain
+structures such as the Hippocampus as the <i>PI</i>, trained the model with the data from 1.5T
+scanners and tested from 3T scanners. The F1-score showed that <i>PINet</i> was more robust in
+transferring to a new dataset, with approximatedly 2% drop (from 0.9471 to 0.9231), while the
+baseline CNN methods had a 29% drop (from 0.8679 to 0.6154). The performance of <i>PINet</i> was
+relied on the selection of the domain knowledge as the <i>PI</i>. Our best model was trained under
+the guidance of 12 selected ROIs, major in the structures of <i>Temporal Lobe</i> and <i>Occipital
+Lobe</i>. In summary, PINet considered the domain knowledge as the <i>PI</i> to train the CNN model,
+and the selected <i>PI</i> introduced both interpretability and generalization ability to the black
+box CNN classifiers.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/38694619
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+2) Title: Joint transformer architecture in brain 3D MRI classification: its application in Alzheimer's disease classification.
+
+Authors: Alp, Sait ; Akan, Taymaz ; Bhuiyan, Md Shenuarin ; Disbrow, Elizabeth A ; Conrad, Steven A ; Vanchiere, John A ; Kevil, Christopher G ; Bhuiyan, Mohammad A N ; 
+
+Summary:
+Alzheimer's disease (AD), a neurodegenerative disease that mostly affects the elderly, slowly
+impairs memory, cognition, and daily tasks. AD has long been one of the most debilitating chronic
+neurological disorders, affecting mostly people over 65. In this study, we investigated the use of
+Vision Transformer (ViT) for Magnetic Resonance Image processing in the context of AD diagnosis. ViT
+was utilized to extract features from MRIs, map them to a feature sequence, perform sequence
+modeling to maintain interdependencies, and classify features using a time series transformer. The
+proposed model was evaluated using ADNI T1-weighted MRIs for binary and multiclass classification.
+Two data collections, Complete 1Yr 1.5T and Complete 3Yr 3T, from the ADNI database were used for
+training and testing. A random split approach was used, allocating 60% for training and 20% for
+testing and validation, resulting in sample sizes of (211, 70, 70) and (1378, 458, 458),
+respectively. The performance of our proposed model was compared to various deep learning models,
+including CNN with BiL-STM and ViT with Bi-LSTM. The suggested technique diagnoses AD with high
+accuracy (99.048% for binary and 99.014% for multiclass classification), precision, recall, and
+F-score. Our proposed method offers researchers an approach to more efficient early clinical
+diagnosis and interventions.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/38637671
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+3) Title: Brain Age Analysis and Dementia Classification using Convolutional Neural Networks trained on Diffusion MRI: Tests in Indian and North American Cohorts.
+
+Authors: Chattopadhyay, Tamoghna ; Joshy, Neha Ann ; Ozarkar, Saket S ; Buwa, Ketaki ; Feng, Yixue ; Laltoo, Emily ; Thomopoulos, Sophia I ; Villalon, Julio E ; Joshi, Himanshu ; Venkatasubramanian, Ganesan ; John, John P ; Thompson, Paul M ; 
+
+Summary:
+Deep learning models based on convolutional neural networks (CNNs) have been used to classify
+Alzheimer's disease or infer dementia severity from T1-weighted brain MRI scans. Here, we examine
+the value of adding diffusion-weighted MRI (dMRI) as an input to these models. Much research in this
+area focuses on specific datasets such as the Alzheimer's Disease Neuroimaging Initiative (ADNI),
+which assesses people of North American, largely European ancestry, so we examine how models trained
+on ADNI, generalize to a new population dataset from India (the NIMHANS cohort). We first benchmark
+our models by predicting "brain age" - the task of predicting a person's chronological age from
+their MRI scan and proceed to AD classification. We also evaluate the benefit of using a 3D CycleGAN
+approach to harmonize the imaging datasets before training the CNN models. Our experiments show that
+classification performance improves after harmonization in most cases, as well as better performance
+for dMRI as input.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/38370641
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+4) Title: A novel CNN architecture for accurate early detection and classification of Alzheimer's disease using MRI data.
+
+Authors: El-Assy, A M ; Amer, Hanan M ; Ibrahim, H M ; Mohamed, M A ; 
+
+Summary:
+Alzheimer's disease (AD) is a debilitating neurodegenerative disorder that requires accurate
+diagnosis for effective management and treatment. In this article, we propose an architecture for a
+convolutional neural network (CNN) that utilizes magnetic resonance imaging (MRI) data from the
+Alzheimer's disease Neuroimaging Initiative (ADNI) dataset to categorize AD. The network employs two
+separate CNN models, each with distinct filter sizes and pooling layers, which are concatenated in a
+classification layer. The multi-class problem is addressed across three, four, and five categories.
+The proposed CNN architecture achieves exceptional accuracies of 99.43%, 99.57%, and 99.13%,
+respectively. These high accuracies demonstrate the efficacy of the network in capturing and
+discerning relevant features from MRI images, enabling precise classification of AD subtypes and
+stages. The network architecture leverages the hierarchical nature of convolutional layers, pooling
+layers, and fully connected layers to extract both local and global patterns from the data,
+facilitating accurate discrimination between different AD categories. Accurate classification of AD
+carries significant clinical implications, including early detection, personalized treatment
+planning, disease monitoring, and prognostic assessment. The reported accuracy underscores the
+potential of the proposed CNN architecture to assist medical professionals and researchers in making
+precise and informed judgments regarding AD patients.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/38342924
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+5) Title: PVTAD: ALZHEIMER'S DISEASE DIAGNOSIS USING PYRAMID VISION TRANSFORMER APPLIED TO WHITE MATTER OF T1-WEIGHTED STRUCTURAL MRI DATA.
+
+Authors: Aghdam, Maryam Akhavan ; Bozdag, Serdar ; Saeed, Fahad ; 
+
+Summary:
+Alzheimer's disease (AD) is a neurodegenerative disorder, and timely diagnosis is crucial for early
+interventions. AD is known to have disruptive local and global brain neural connections that may be
+instrumental in understanding and extracting specific biomarkers. Previous machine-learning
+approaches are mostly based on convolutional neural network (CNN) and standard vision transformer
+(ViT) models which may not sufficiently capture the multidimensional local and global patterns that
+may be indicative of AD. Therefore, in this paper, we propose a novel approach called PVTAD to
+classify AD and cognitively normal (CN) cases using pretrained pyramid vision transformer (PVT) and
+white matter (WM) of T1-weighted structural MRI (sMRI) data. Our approach combines the advantages of
+CNN and standard ViT to extract both local and global features indicative of AD from the WM coronal
+middle slices. We performed experiments on subjects with T1-weighed MPRAGE sMRI scans from the ADNI
+dataset. Our results demonstrate that the PVTAD achieves an average accuracy of 97.7% and F1-score
+of 97.6%, outperforming the single and parallel CNN and standard ViT architectures based on sMRI
+data for AD vs. CN classification.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/38045324
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+6) Title: A Deep Learning-Based Ensemble Method for Early Diagnosis of Alzheimer's Disease using MRI Images.
+
+Authors: Fathi, Sina ; Ahmadi, Ali ; Dehnad, Afsaneh ; Almasi-Dooghaee, Mostafa ; Sadegh, Melika ; 
+
+Summary:
+Recently, the early diagnosis of Alzheimer's disease has gained major attention due to the growing
+prevalence of the disease and the resulting costs imposed on individuals and society. The main
+objective of this study was to propose an ensemble method based on deep learning for the early
+diagnosis of AD using MRI images. The methodology of this study consisted of collecting the dataset,
+preprocessing, creating the individual and ensemble models, evaluating the models based on ADNI
+data, and validating the trained model based on the local dataset. The proposed method was an
+ensemble approach selected through a comparative analysis of various ensemble scenarios. Finally,
+the six best individual CNN-based classifiers were selected to combine and constitute the ensemble
+model. The evaluation showed an accuracy rate of 98.57, 96.37, 94.22, 99.83, 93.88, and 93.92 for
+NC/AD, NC/EMCI, EMCI/LMCI, LMCI/AD, four-way and three-way classification groups, respectively. The
+validation results on the local dataset revealed an accuracy of 88.46 for three-way classification.
+Our performance results were higher than most reviewed studies and comparable with others. Although
+comparative analysis showed superior results of ensemble methods against individual architectures,
+there were no significant differences among various ensemble approaches. The validation results
+revealed the low performance of individual models in practice. In contrast, the ensemble method
+showed promising results. However, further studies on various and larger datasets are required to
+validate the generalizability of the model.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/38042764
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+7) Title: Application of machine learning in dementia diagnosis: A systematic literature review.
+
+Authors: Kantayeva, Gauhar ; Lima, José ; Pereira, Ana I ; 
+
+Summary:
+According to the World Health Organization forecast, over 55 million people worldwide have dementia,
+and about 10 million new cases are detected yearly. Early diagnosis is essential for patients to
+plan for the future and deal with the disease. Machine Learning algorithms allow us to solve the
+problems associated with early disease detection. This work attempts to identify the current
+relevance of the application of machine learning in dementia prediction in the scientific world and
+suggests open fields for future research. The literature review was conducted by combining
+bibliometric and content analysis of articles originating in a period of 20 years in the Scopus
+database. Twenty-seven thousand five hundred twenty papers were identified firstly, of which a
+limited number focused on machine learning in dementia diagnosis. After the exclusion process, 202
+were selected, and 25 were chosen for analysis. The recent increasing interest in the past five
+years in the theme of machine learning in dementia shows that it is a relevant field for research
+with still open questions. The methods used to identify dementia or what features are used to
+identify or predict this disease are explored in this study. The literature review revealed that
+most studies used magnetic resonance imaging (MRI) and its types as the main feature, accompanied by
+demographic data such as age, gender, and the mini-mental state examination score (MMSE). Data are
+usually acquired from the Alzheimer's Disease Neuroimaging Initiative (ADNI). Classification of
+Alzheimer's disease is more prevalent than prediction of Mild Cognitive Impairment (MCI) or their
+combination. The authors preferred machine learning algorithms such as SVM, Ensemble methods, and
+CNN because of their excellent performance and results in previous studies. However, most use not
+one machine-learning technique but a combination of techniques. Despite achieving good results in
+the studies considered, there are new concepts for future investigation declared by the authors and
+suggestions for improvements by employing promising methods with potentially significant results.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/38027622
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+8) Title: Conv-eRVFL: Convolutional Neural Network Based Ensemble RVFL Classifier for Alzheimer's Disease Diagnosis.
+
+Authors: Sharma, Rahul ; Goel, Tripti ; Tanveer, M ; Suganthan, P N ; Razzak, Imran ; Murugan, R ; 
+
+Summary:
+As per the latest statistics, Alzheimer's disease (AD) has become a global burden over the following
+decades. Identifying AD at the intermediate stage became challenging, with mild cognitive impairment
+(MCI) utilizing credible biomarkers and robust learning approaches. Neuroimaging techniques like
+magnetic resonance imaging (MRI) and positron emission tomography (PET) are practical research
+approaches that provide structural atrophies and metabolic variations. With the help of MRI and PET
+scans, metabolic and structural changes in AD patients can be visible even ten years before the
+disease's onset. This paper proposes a novel wavelet packet transform-based structural and metabolic
+image fusion approach using MRI and PET scans. An eight-layer trained CNN extracts features from
+multiple layers and these features are fed to an ensemble of non-iterative random vector functional
+link (RVFL) models. The RVFL network incorporates the s-membership fuzzy function as an activation
+function that helps overcome outliers. Lastly, outputs of all the customized RVFL classifiers are
+averaged and fed to the RVFL classifier to make the final decision. Experiments are performed over
+Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset, and classification is made over CN vs.
+AD vs. MCI. The model performance obtained is decent enough to prove the effectiveness of the
+fusion-based ensemble approach.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/36260567
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+9) Title: A CAD System for Alzheimer's Disease Classification Using Neuroimaging MRI 2D Slices.
+
+Authors: Sethi, Monika ; Rani, Shalli ; Singh, Aman ; Mazón, Juan Luis Vidal ; 
+
+Summary:
+Developments in medical care have inspired wide interest in the current decade, especially to their
+services to individuals living prolonged and healthier lives. Alzheimer's disease (AD) is the most
+chronic neurodegeneration and dementia-causing disorder. Economic expense of treating AD patients is
+expected to grow. The requirement of developing a computer-aided technique for early AD
+categorization becomes even more essential. Deep learning (DL) models offer numerous benefits
+against machine learning tools. Several latest experiments that exploited brain magnetic resonance
+imaging (MRI) scans and convolutional neural networks (CNN) for AD classification showed promising
+conclusions. CNN's receptive field aids in the extraction of main recognizable features from these
+MRI scans. In order to increase classification accuracy, a new adaptive model based on CNN and
+support vector machines (SVM) is presented in the research, combining both the CNN's capabilities in
+feature extraction and SVM in classification. The objective of this research is to build a hybrid
+CNN-SVM model for classifying AD using the MRI ADNI dataset. Experimental results reveal that the
+hybrid CNN-SVM model outperforms the CNN model alone, with relative improvements of 3.4%, 1.09%,
+0.85%, and 2.82% on the testing dataset for AD vs. cognitive normal (CN), CN vs. mild cognitive
+impairment (MCI), AD vs. MCI, and CN vs. MCI vs. AD, respectively. Finally, the proposed approach
+has been further experimented on OASIS dataset leading to accuracy of 86.2%.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/35983528
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+10) Title: Diagnostic accuracy study of automated stratification of Alzheimer's disease and mild cognitive impairment via deep learning based on MRI.
+
+Authors: Chen, Xiaowen ; Tang, Mingyue ; Liu, Aimin ; Wei, Xiaoqin ; 
+
+Summary:
+Alzheimer's disease (AD) is a widespread neurodegenerative disease that mostly affects the elderly
+population. Given its prevalence, a precise and efficient stratification system based on AD
+symptomology that uses functional magnetic resonance imaging (MRI) has great potential in the
+clinical diagnosis and prognosis estimation of AD patients. It was evident that deep learning
+methods have performed extremely well in the field of automated stratification of AD based on MRI
+because of their high predicting accuracy and reliability.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/35965800
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+11) Title: Improving the Automatic Classification of Brain MRI Acquisition Contrast with Machine Learning.
+
+Authors: Cluceru, Julia ; Lupo, Janine M ; Interian, Yannet ; Bove, Riley ; Crane, Jason C ; 
+
+Summary:
+Automated quantification of data acquired as part of an MRI exam requires identification of the
+specific acquisition of relevance to a particular analysis. This motivates the development of
+methods capable of reliably classifying MRI acquisitions according to their nominal contrast type,
+e.g., T1 weighted, T1 post-contrast, T2 weighted, T2-weighted FLAIR, proton-density weighted. Prior
+studies have investigated using imaging-based methods and DICOM metadata-based methods with success
+on cohorts of patients acquired as part of a clinical trial. This study compares the performance of
+these methods on heterogeneous clinical datasets acquired with many different scanners from many
+institutions. RF and CNN models were trained on metadata and pixel data, respectively. A combined RF
+model incorporated CNN logits from the pixel-based model together with metadata. Four cohorts were
+used for model development and evaluation: MS research (n = 11,106 series), MS clinical (n = 3244
+series), glioma research (n = 612 series, test/validation only), and ADNI PTSD (n = 477 series,
+training only). Together, these cohorts represent a broad range of acquisition contexts (scanners,
+sequences, institutions) and subject pathologies. Pixel-based CNN and combined models achieved
+accuracies between 97 and 98% on the clinical MS cohort. Validation/test accuracies with the glioma
+cohort were 99.7% (metadata only) and 98.4 (CNN). Accurate and generalizable classification of MRI
+acquisition contrast types was demonstrated. Such methods are important for enabling automated data
+selection in high-throughput and big-data image analysis applications.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/35941406
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+12) Title: Diagnosis of Alzheimer's disease using structure highlighting key slice stacking and transfer learning.
+
+Authors: Ban, Yanjiao ; Zhang, Xuejun ; Lao, Huan ; 
+
+Summary:
+In recent years, two-dimensional convolutional neural network (2D CNN) have been widely used in the
+diagnosis of Alzheimer's disease (AD) based on structural magnetic resonance imaging (sMRI).
+However, due to the lack of targeted processing of the key slices of sMRI images, the classification
+performance of the CNN model needs to be improved.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/35894542
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+13) Title: Deep Learning Model for Prediction of Progressive Mild Cognitive Impairment to Alzheimer's Disease Using Structural MRI.
+
+Authors: Lim, Bing Yan ; Lai, Khin Wee ; Haiskin, Khairunnisa ; Kulathilake, K A Saneera Hemantha ; Ong, Zhi Chao ; Hum, Yan Chai ; Dhanalakshmi, Samiappan ; Wu, Xiang ; Zuo, Xiaowei ; 
+
+Summary:
+Alzheimer's disease (AD) is an irreversible neurological disorder that affects the vast majority of
+dementia cases, leading patients to experience gradual memory loss and cognitive function decline.
+Despite the lack of a cure, early detection of Alzheimer's disease permits the provision of
+preventive medication to slow the disease's progression. The objective of this project is to develop
+a computer-aided method based on a deep learning model to distinguish Alzheimer's disease (AD) from
+cognitively normal and its early stage, mild cognitive impairment (MCI), by just using structural
+MRI (sMRI). To attain this purpose, we proposed a multiclass classification method based on 3D
+T1-weight brain sMRI images from the ADNI database. Axial brain images were extracted from 3D MRI
+and fed into the convolutional neural network (CNN) for multiclass classification. Three separate
+models were tested: a CNN built from scratch, VGG-16, and ResNet-50. As a feature extractor, the
+VGG-16 and ResNet-50 convolutional bases trained on the ImageNet dataset were employed. To achieve
+classification, a new densely connected classifier was implemented on top of the convolutional
+bases.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/35721012
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+14) Title: A<sup>3</sup>C-TL-GTO: Alzheimer Automatic Accurate Classification Using Transfer Learning and Artificial Gorilla Troops Optimizer.
+
+Authors: Baghdadi, Nadiah A ; Malki, Amer ; Balaha, Hossam Magdy ; Badawy, Mahmoud ; Elhosseini, Mostafa ; 
+
+Summary:
+Alzheimer's disease (AD) is a chronic disease that affects the elderly. There are many different
+types of dementia, but Alzheimer's disease is one of the leading causes of death. AD is a chronic
+brain disorder that leads to problems with language, disorientation, mood swings, bodily functions,
+memory loss, cognitive decline, mood or personality changes, and ultimately death due to dementia.
+Unfortunately, no cure has yet been developed for it, and it has no known causes. Clinically,
+imaging tools can aid in the diagnosis, and deep learning has recently emerged as an important
+component of these tools. Deep learning requires little or no image preprocessing and can infer an
+optimal data representation from raw images without prior feature selection. As a result, they
+produce a more objective and less biased process. The performance of a convolutional neural network
+(CNN) is primarily affected by the hyperparameters chosen and the dataset used. A deep learning
+model for classifying Alzheimer's patients has been developed using transfer learning and optimized
+by Gorilla Troops for early diagnosis. This study proposes the A3C-TL-GTO framework for MRI image
+classification and AD detection. The A3C-TL-GTO is an empirical quantitative framework for accurate
+and automatic AD classification, developed and evaluated with the Alzheimer's Dataset (four classes
+of images) and the Alzheimer's Disease Neuroimaging Initiative (ADNI). The proposed framework
+reduces the bias and variability of preprocessing steps and hyperparameters optimization to the
+classifier model and dataset used. Our strategy, evaluated on MRIs, is easily adaptable to other
+imaging methods. According to our findings, the proposed framework was an excellent instrument for
+this task, with a significant potential advantage for patient care. The ADNI dataset, an online
+dataset on Alzheimer's disease, was used to obtain magnetic resonance imaging (MR) brain images. The
+experimental results demonstrate that the proposed framework achieves 96.65% accuracy for the
+Alzheimer's Dataset and 96.25% accuracy for the ADNI dataset. Moreover, a better performance in
+terms of accuracy is demonstrated over other state-of-the-art approaches.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/35684871
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+15) Title: Spatio-temporal convolution for classification of alzheimer disease and mild cognitive impairment.
+
+Authors: Turhan, Gülce ; Küçük, Haluk ; Isik, Esin Ozturk ; 
+
+Summary:
+Dementia refers to the loss of memory and other cognitive abilities. Alzheimer's disease (AD), which
+patients eventually die from, is the most common cause of dementia. In USA, %60 to %80 of dementia
+cases, are caused by AD. An estimate of 5.2 million people from all age groups have been diagnosed
+with AD in 2014. Mild cognitive impairment (MCI) is a preliminary stage of dementia with noticeable
+changes in patient's cognitive abilities. Individuals, who bear MCI symptoms, are prone to
+developing AD. Therefore, identification of MCI patients is very critical for a plausible treatment
+before it reaches to AD, the irreversible stage of this neurodegenerative disease.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/35636355
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+16) Title: Classification of Alzheimer's disease in MRI images using knowledge distillation framework: an investigation.
+
+Authors: Li, Yiru ; Luo, Jianxu ; Zhang, Jiachen ; 
+
+Summary:
+Computer-aided MRI analysis is helpful for early detection of Alzheimer's disease(AD). Recently, 3D
+convolutional neural networks(CNN) are widely used to analyse MRI images. However, 3D CNN requires
+huge memory cost. In this paper, we introduce cascaded CNN and long and short-term memory (LSTM)
+networks. We also use knowledge distillation to improve the accuracy of the model using small
+medical image dataset.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/35633492
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+17) Title: Deep transfer learning-based fully automated detection and classification of Alzheimer's disease on brain MRI.
+
+Authors: Ghaffari, Hamed ; Tavakoli, Hassan ; Pirzad Jahromi, Gila ; 
+
+Summary:
+To employ different automated convolutional neural network (CNN)-based transfer learning (TL)
+methods for both binary and multiclass classification of Alzheimer's disease (AD) using brain MRI.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/35616643
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+18) Title: Fusing Multimodal and Anatomical Volumes of Interest Features Using Convolutional Auto-Encoder and Convolutional Neural Networks for Alzheimer's Disease Diagnosis.
+
+Authors: Abdelaziz, Mohammed ; Wang, Tianfu ; Elazab, Ahmed ; 
+
+Summary:
+Alzheimer's disease (AD) is an age-related disease that affects a large proportion of the elderly.
+Currently, the neuroimaging techniques [e.g., magnetic resonance imaging (MRI) and positron emission
+tomography (PET)] are promising modalities for AD diagnosis. Since not all brain regions are
+affected by AD, a common technique is to study some region-of-interests (ROIs) that are believed to
+be closely related to AD. Conventional methods used ROIs, identified by the handcrafted features
+through Automated Anatomical Labeling (AAL) atlas rather than utilizing the original images which
+may induce missing informative features. In addition, they learned their framework based on the
+discriminative patches instead of full images for AD diagnosis in multistage learning scheme. In
+this paper, we integrate the original image features from MRI and PET with their ROIs features in
+one learning process. Furthermore, we use the ROIs features for forcing the network to focus on the
+regions that is highly related to AD and hence, the performance of the AD diagnosis can be improved.
+Specifically, we first obtain the ROIs features from the AAL, then we register every ROI with its
+corresponding region of the original image to get a synthetic image for each modality of every
+subject. Then, we employ the convolutional auto-encoder network for learning the synthetic image
+features and the convolutional neural network (CNN) for learning the original image features.
+Meanwhile, we concatenate the features from both networks after each convolution layer. Finally, the
+highly learned features from the MRI and PET are concatenated for brain disease classification.
+Experiments are carried out on the ADNI datasets including ADNI-1 and ADNI-2 to evaluate our method
+performance. Our method demonstrates a higher performance in brain disease classification than the
+recent studies.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/35572142
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+19) Title: Alzheimer's Disease Diagnosis With Brain Structural MRI Using Multiview-Slice Attention and 3D Convolution Neural Network.
+
+Authors: Chen, Lin ; Qiao, Hezhe ; Zhu, Fan ; 
+
+Summary:
+Numerous artificial intelligence (AI) based approaches have been proposed for automatic Alzheimer's
+disease (AD) prediction with brain structural magnetic resonance imaging (sMRI). Previous studies
+extract features from the whole brain or individual slices separately, ignoring the properties of
+multi-view slices and feature complementarity. For this reason, we present a novel AD diagnosis
+model based on the multiview-slice attention and 3D convolution neural network (3D-CNN).
+Specifically, we begin by extracting the local slice-level characteristic in various dimensions
+using multiple sub-networks. Then we proposed a slice-level attention mechanism to emphasize
+specific 2D-slices to exclude the redundancy features. After that, a 3D-CNN was employed to capture
+the global subject-level structural changes. Finally, all these 2D and 3D features were fused to
+obtain more discriminative representations. We conduct the experiments on 1,451 subjects from ADNI-1
+and ADNI-2 datasets. Experimental results showed the superiority of our model over the state-of-the-
+art approaches regarding dementia classification. Specifically, our model achieves accuracy values
+of 91.1 and 80.1% on ADNI-1 for AD diagnosis and mild cognitive impairment (MCI) convention
+prediction, respectively.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/35557839
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+20) Title: Alzheimer's Disease Classification Accuracy is Improved by MRI Harmonization based on Attention-Guided Generative Adversarial Networks.
+
+Authors: Sinha, Surabhi ; Thomopoulos, Sophia I ; Lam, Pradeep ; Muir, Alexandra ; Thompson, Paul M ; 
+
+Summary:
+Alzheimer's disease (AD) accounts for 60% of dementia cases worldwide; patients with the disease
+typically suffer from irreversible memory loss and progressive decline in multiple cognitive
+domains. With brain imaging techniques such as magnetic resonance imaging (MRI), microscopic brain
+changes are detectable even before abnormal memory loss is detected clinically. Patterns of brain
+atrophy can be measured using MRI, which gives us an opportunity to facilitate AD detection using
+image classification techniques. Even so, MRI scanning protocols and scanners differ across studies.
+The resulting differences in image contrast and signal to noise make it important to train and test
+classification models on multiple datasets, and to handle shifts in image characteristics across
+protocols (also known as <i>domain transfer</i> or <i>domain adaptation</i>). Here, we examined
+whether adversarial domain adaptation can boost the performance of a Convolutional Neural Network
+(CNN) model designed to classify AD. To test this, we used an Attention-Guided Generative
+Adversarial Network (GAN) to harmonize images from three publicly available brain MRI datasets -
+ADNI, AIBL and OASIS - adjusting for scanner-dependent effects. Our AG-GAN optimized a joint
+objective function that included attention loss, pixel loss, cycle-consistency loss and adversarial
+loss; the model was trained bidirectionally in an end-to-end fashion. For AD classification, we
+adapted the popular 2D AlexNet CNN to handle 3D images. Classification based on harmonized MR images
+significantly outperformed classification based on the three datasets in non-harmonized form,
+motivating further work on image harmonization using adversarial techniques.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/35340753
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+21) Title: Alzheimer's Disease Classification Through Imaging Genetic Data With IGnet.
+
+Authors: Wang, Jade Xiaoqing ; Li, Yimei ; Li, Xintong ; Lu, Zhao-Hua ; 
+
+Summary:
+The application of deep learning techniques to the detection and automated classification of
+Alzheimer's disease (AD) has recently gained considerable attention. The rapid progress in
+neuroimaging and sequencing techniques has enabled the generation of large-scale imaging genetic
+data for AD research. In this study, we developed a deep learning approach, IGnet, for automated AD
+classification using both magnetic resonance imaging (MRI) data and genetic sequencing data. The
+proposed approach integrates computer vision (CV) and natural language processing (NLP) techniques,
+with a deep three-dimensional convolutional network (3D CNN) being used to handle the three-
+dimensional MRI input and a Transformer encoder being used to manage the genetic sequence input. The
+proposed approach has been applied to the Alzheimer's Disease Neuroimaging Initiative (ADNI) data
+set. Using baseline MRI scans and selected single-nucleotide polymorphisms on chromosome 19, it
+achieved a classification accuracy of 83.78% and an area under the receiver operating characteristic
+curve (AUC-ROC) of 0.924 with the test set. The results demonstrate the great potential of using
+multi-disciplinary AI approaches to integrate imaging genetic data for the automated classification
+of AD.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/35310099
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+22) Title: Data-Limited Deep Learning Methods for Mild Cognitive Impairment Classification in Alzheimer's Disease Patients.
+
+Authors: De Luna, Ashley ; Marcia, Roummel F ; 
+
+Summary:
+Mild Cognitive Impairment (MCI) is the stage between the declining of normal brain function and the
+more serious decline of dementia. Alzheimer's disease (AD) is one of the leading forms of dementia.
+Although MCI does not always lead to AD, an early diagnosis of MCI may be helpful in finding those
+with early signs of AD. The Alzheimer's Disease Neuroimaging Initiative (ADNI) has utilized magnetic
+resonance imaging (MRI) for the diagnosis of MCI and AD. MCI can be separated into two types: Early
+MCI (EMCI) and Late MCI (LMCI). Furthermore, MRI results can be separated into three views of axial,
+coronal and sagittal planes. In this work, we perform binary classifications between healthy people
+and the two types of MCI based on limited MRI images using deep learning approaches. Specifically,
+we implement and compare two various convolutional neural network (CNN) architectures. The MRIs of
+516 patients were used in this study: 172 control normal (CN), 172 EMCI patients and 172 LMCI
+patients. For this data set, 50% of the images were used for training, 20% for validation, and the
+remaining 30% for testing. The results showed that the best classification for one model was between
+CN and LMCI for the coronal view with an accuracy of 79.67%. In addition, we achieved 67.85%
+accuracy for the second proposed model for the same classification group.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/34891795
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+23) Title: Effect of data leakage in brain MRI classification using 2D convolutional neural networks.
+
+Authors: Yagis, Ekin ; Atnafu, Selamawet Workalemahu ; García Seco de Herrera, Alba ; Marzi, Chiara ; Scheda, Riccardo ; Giannelli, Marco ; Tessa, Carlo ; Citi, Luca ; Diciotti, Stefano ; 
+
+Summary:
+In recent years, 2D convolutional neural networks (CNNs) have been extensively used to diagnose
+neurological diseases from magnetic resonance imaging (MRI) data due to their potential to discern
+subtle and intricate patterns. Despite the high performances reported in numerous studies,
+developing CNN models with good generalization abilities is still a challenging task due to possible
+data leakage introduced during cross-validation (CV). In this study, we quantitatively assessed the
+effect of a data leakage caused by 3D MRI data splitting based on a 2D slice-level using three 2D
+CNN models to classify patients with Alzheimer's disease (AD) and Parkinson's disease (PD). Our
+experiments showed that slice-level CV erroneously boosted the average slice level accuracy on the
+test set by 30% on Open Access Series of Imaging Studies (OASIS), 29% on Alzheimer's Disease
+Neuroimaging Initiative (ADNI), 48% on Parkinson's Progression Markers Initiative (PPMI) and 55%
+on a local de-novo PD Versilia dataset. Further tests on a randomly labeled OASIS-derived dataset
+produced about 96% of (erroneous) accuracy (slice-level split) and 50% accuracy (subject-level
+split), as expected from a randomized experiment. Overall, the extent of the effect of an erroneous
+slice-based CV is severe, especially for small datasets.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/34799630
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+24) Title: Ranking convolutional neural network for Alzheimer's disease mini-mental state examination prediction at multiple time-points.
+
+Authors: Qiao, Hezhe ; Chen, Lin ; Zhu, Fan ; 
+
+Summary:
+Alzheimer's disease (AD) is a fatal neurodegenerative disease. Predicting Mini-mental state
+examination (MMSE) based on magnetic resonance imaging (MRI) plays an important role in monitoring
+the progress of AD. Existing machine learning based methods cast MMSE prediction as a single metric
+regression problem simply and ignore the relationship between subjects with various scores.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/34798407
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+25) Title: Deep Learning Approach for Early Detection of Alzheimer's Disease.
+
+Authors: Helaly, Hadeer A ; Badawy, Mahmoud ; Haikal, Amira Y ; 
+
+Summary:
+Alzheimer's disease (AD) is a chronic, irreversible brain disorder, no effective cure for it till
+now. However, available medicines can delay its progress. Therefore, the early detection of AD plays
+a crucial role in preventing and controlling its progression. The main objective is to design an
+end-to-end framework for early detection of Alzheimer's disease and medical image classification for
+various AD stages. A deep learning approach, specifically convolutional neural networks (CNN), is
+used in this work. Four stages of the AD spectrum are multi-classified. Furthermore, separate binary
+medical image classifications are implemented between each two-pair class of AD stages. Two methods
+are used to classify the medical images and detect AD. The first method uses simple CNN
+architectures that deal with 2D and 3D structural brain scans from the Alzheimer's Disease
+Neuroimaging Initiative (ADNI) dataset based on 2D and 3D convolution. The second method applies the
+transfer learning principle to take advantage of the pre-trained models for medical image
+classifications, such as the VGG19 model. Due to the COVID-19 pandemic, it is difficult for people
+to go to hospitals periodically to avoid gatherings and infections. As a result, Alzheimer's
+checking web application is proposed using the final qualified proposed architectures. It helps
+doctors and patients to check AD remotely. It also determines the AD stage of the patient based on
+the AD spectrum and advises the patient according to its AD stage. Nine performance metrics are used
+in the evaluation and the comparison between the two methods. The experimental results prove that
+the CNN architectures for the first method have the following characteristics: suitable simple
+structures that reduce computational complexity, memory requirements, overfitting, and provide
+manageable time. Besides, they achieve very promising accuracies, 93.61% and 95.17% for 2D and 3D
+multi-class AD stage classifications. The VGG19 pre-trained model is fine-tuned and achieved an
+accuracy of 97% for multi-class AD stage classifications.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/34745371
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+26) Title: An Effective Multimodal Image Fusion Method Using MRI and PET for Alzheimer's Disease Diagnosis.
+
+Authors: Song, Juan ; Zheng, Jian ; Li, Ping ; Lu, Xiaoyuan ; Zhu, Guangming ; Shen, Peiyi ; 
+
+Summary:
+Alzheimer's disease (AD) is an irreversible brain disease that severely damages human thinking and
+memory. Early diagnosis plays an important part in the prevention and treatment of AD. Neuroimaging-
+based computer-aided diagnosis (CAD) has shown that deep learning methods using multimodal images
+are beneficial to guide AD detection. In recent years, many methods based on multimodal feature
+learning have been proposed to extract and fuse latent representation information from different
+neuroimaging modalities including magnetic resonance imaging (MRI) and 18-fluorodeoxyglucose
+positron emission tomography (FDG-PET). However, these methods lack the interpretability required to
+clearly explain the specific meaning of the extracted information. To make the multimodal fusion
+process more persuasive, we propose an image fusion method to aid AD diagnosis. Specifically, we
+fuse the gray matter (GM) tissue area of brain MRI and FDG-PET images by registration and mask
+coding to obtain a new fused modality called "GM-PET." The resulting single composite image
+emphasizes the GM area that is critical for AD diagnosis, while retaining both the contour and
+metabolic characteristics of the subject's brain tissue. In addition, we use the three-dimensional
+simple convolutional neural network (3D Simple CNN) and 3D Multi-Scale CNN to evaluate the
+effectiveness of our image fusion method in binary classification and multi-classification tasks.
+Experiments on the Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset indicate that the
+proposed image fusion method achieves better overall performance than unimodal and feature fusion
+methods, and that it outperforms state-of-the-art methods for AD diagnosis.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/34713109
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+27) Title: Artificial Intelligence-based MRI Images for Brain in Prediction of Alzheimer's Disease.
+
+Authors: Bi, Xiaowang ; Liu, Wei ; Liu, Huaiqin ; Shang, Qun ; 
+
+Summary:
+The study aimed to explore the accuracy and stability of Deep metric learning (DML) algorithm in
+Magnetic Resonance Imaging (MRI) examination of Alzheimer's Disease (AD) patients. In this study,
+MRI data of patients obtained were from Alzheimer's Disease Neuroimaging Initiative (ADNI) database
+(A total of 180 AD cases, 88 women, 92 men; 188 samples in healthy conditions (HC), including 90
+females and 98 males. 210 samples of mild cognitive impairment (MCI), 104 females and 106 males). On
+the basis of deep learning, an early AD diagnosis system was constructed using CNN (Convolutional
+Neural Network) and DML algorithms. Then, the system was used to classify AD, HC, and MCI, and the
+two algorithms were compared for the accuracy and stability of in classification of MRI images. It
+was found that in the classification of AD and HC, the classification accuracy and sensitivity of
+the deep measurement learning model are both 0.83, superior to the CNN model; in terms of
+specificity, the classification specificity of the DML model was 0.82, slightly lower than that of
+the CNN model; and that in the classification of MCI and HC, the classification accuracy and
+sensitivity of the DML model was 0.65, superior to the CNN model; and in terms of specificity, the
+classification specificity of the DML model was 0.66, slightly lower than that of the CNN model. It
+suggested that the DML model demonstrated better classification effects on early AD patients. The
+loss curve analysis results showed that, for classification of AD and HC or MCI and HC, the DML
+algorithm can improve the convergence speed of the AD early prediction model. Therefore, the DML
+algorithm can significantly improve the clarity and quality of MRI images, elevate the
+classification accuracy and stability of early AD patients, and accelerate the convergence of the
+model, providing a new way for early prediction of AD.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/34712461
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+28) Title: 3D shearlet-based descriptors combined with deep features for the classification of Alzheimer's disease based on MRI data.
+
+Authors: Alinsaif, Sadiq ; Lang, Jochen ; 
+
+Summary:
+Alzheimer's disease (AD) is a neurodegenerative disease that afflicts millions of people worldwide.
+Early detection of AD is critical, as drug trials show a promising advantage to those patients with
+early diagnoses. In this study, magnetic resonance imaging (MRI) datasets from the Alzheimer's
+Disease Neuroimaging Initiative (ADNI) and The Open Access Series of Imaging Studies are used. Our
+method for performing the classification of AD is to combine a set of shearlet-based descriptors
+with deep features. A major challenge in classifying such MRI datasets is the high dimensionality of
+feature vectors because of the large number of slices of each MRI sample. Given the volumetric
+nature of the MRI data, we propose using the 3D shearlet transform (3D-ST), but we obtain the
+average of all directionalities, which reduces the dimensionality. On the other hand, we propose to
+leverage the capabilities of convolutional neural networks (CNN) to learn feature maps from stacked
+MRI slices, which generate a very compact feature vector for each MRI sample. The 3D-ST and CNN
+feature vectors are combined for the classification of AD. After the concatenation of the feature
+vectors, they are used to train a classifier. Alternatively, a custom CNN model is utilized, in
+which the descriptors are further processed end to end to obtain the classification model. Our
+experimental results show that the fusion of shearlet-based descriptors and deep features improves
+classification performance, especially on the ADNI dataset.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/34598071
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+29) Title: Early Alzheimer's disease diagnosis with the contrastive loss using paired structural MRIs.
+
+Authors: Qiao, Hezhe ; Chen, Lin ; Ye, Zi ; Zhu, Fan ; 
+
+Summary:
+Alzheimer's Disease (AD) is a chronic and fatal neurodegenerative disease with progressive
+impairment of memory. Brain structural magnetic resonance imaging (sMRI) has been widely applied as
+important biomarkers of AD. Various machine learning approaches, especially deep learning-based
+models, have been proposed for the early diagnosis of AD and monitoring the disease progression on
+sMRI data. However, the requirement for a large number of training images still hinders the
+extensive usage of AD diagnosis. In addition, due to the similarities in human whole-brain
+structure, finding the subtle brain changes is essential to extract discriminative features from
+limited sMRI data effectively.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/34343744
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+30) Title: Alzheimer's disease diagnosis framework from incomplete multimodal data using convolutional neural networks.
+
+Authors: Abdelaziz, Mohammed ; Wang, Tianfu ; Elazab, Ahmed ; 
+
+Summary:
+Alzheimer's disease (AD) is a severe irreversible neurodegenerative disease that has great
+sufferings on patients and eventually leads to death. Early detection of AD and its prodromal stage,
+mild cognitive impairment (MCI) which can be either stable (sMCI) or progressive (pMCI), is highly
+desirable for effective treatment planning and tailoring therapy. Recent studies recommended using
+multimodal data fusion of genetic (single nucleotide polymorphisms, SNPs) and neuroimaging data
+(magnetic resonance imaging (MRI) and positron emission tomography (PET)) to discriminate AD/MCI
+from normal control (NC) subjects. However, missing multimodal data in the cohort under study is
+inevitable. In addition, data heterogeneity between phenotypes and genotypes biomarkers makes
+learning capability of the models more challenging. Also, the current studies mainly focus on
+identifying brain disease classification and ignoring the regression task. Furthermore, they utilize
+multistage for predicting the brain disease progression. To address these issues, we propose a novel
+multimodal neuroimaging and genetic data fusion for joint classification and clinical score
+regression tasks using the maximum number of available samples in one unified framework using
+convolutional neural network (CNN). Specifically, we initially perform a technique based on linear
+interpolation to fill the missing features for each incomplete sample. Then, we learn the
+neuroimaging features from MRI, PET, and SNPs using CNN to alleviate the heterogeneity among
+genotype and phenotype data. Meanwhile, the high learned features from each modality are combined
+for jointly identifying brain diseases and predicting clinical scores. To validate the performance
+of the proposed method, we test our method on 805 subjects from Alzheimer's Disease Neuroimaging
+Initiative (ADNI) dataset. Also, we verify the similarity between the synthetic and real data using
+statistical analysis. Moreover, the experimental results demonstrate that the proposed method can
+yield better performance in both classification and regression tasks. Specifically, our proposed
+method achieves accuracy of 98.22%, 93.11%, and 97.35% for NC vs. AD, NC vs. sMCI, and NC vs. pMCI,
+respectively. On the other hand, our method attains the lowest root mean square error and the
+highest correlation coefficient for different clinical scores regression tasks compared with the
+state-of-the-art methods.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/34229061
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+31) Title: An Improved Deep Residual Network Prediction Model for the Early Diagnosis of Alzheimer's Disease.
+
+Authors: Sun, Haijing ; Wang, Anna ; Wang, Wenhui ; Liu, Chen ; 
+
+Summary:
+The early diagnosis of Alzheimer's disease (AD) can allow patients to take preventive measures
+before irreversible brain damage occurs. It can be seen from cross-sectional imaging studies of AD
+that the features of the lesion areas in AD patients, as observed by magnetic resonance imaging
+(MRI), show significant variation, and these features are distributed throughout the image space.
+Since the convolutional layer of the general convolutional neural network (CNN) cannot
+satisfactorily extract long-distance correlation in the feature space, a deep residual network
+(ResNet) model, based on spatial transformer networks (STN) and the non-local attention mechanism,
+is proposed in this study for the early diagnosis of AD. In this ResNet model, a new Mish activation
+function is selected in the ResNet-50 backbone to replace the Relu function, STN is introduced
+between the input layer and the improved ResNet-50 backbone, and a non-local attention mechanism is
+introduced between the fourth and the fifth stages of the improved ResNet-50 backbone. This ResNet
+model can extract more information from the layers by deepening the network structure through deep
+ResNet. The introduced STN can transform the spatial information in MRI images of Alzheimer's
+patients into another space and retain the key information. The introduced non-local attention
+mechanism can find the relationship between the lesion areas and normal areas in the feature space.
+This model can solve the problem of local information loss in traditional CNN and can extract the
+long-distance correlation in feature space. The proposed method was validated using the ADNI
+(Alzheimer's disease neuroimaging initiative) experimental dataset, and compared with several
+models. The experimental results show that the classification accuracy of the algorithm proposed in
+this study can reach 97.1%, the macro precision can reach 95.5%, the macro recall can reach 95.3%,
+and the macro F1 value can reach 95.4%. The proposed model is more effective than other algorithms.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/34207145
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+32) Title: Cross-cohort generalizability of deep and conventional machine learning for MRI-based diagnosis and prediction of Alzheimer's disease.
+
+Authors: Bron, Esther E ; Klein, Stefan ; Papma, Janne M ; Jiskoot, Lize C ; Venkatraghavan, Vikram ; Linders, Jara ; Aalten, Pauline ; De Deyn, Peter Paul ; Biessels, Geert Jan ; Claassen, Jurgen A H R ; Middelkoop, Huub A M ; Smits, Marion ; Niessen, Wiro J ; van Swieten, John C ; van der Flier, Wiesje M ; Ramakers, Inez H G B ; van der Lugt, Aad ; 
+
+Summary:
+This work validates the generalizability of MRI-based classification of Alzheimer's disease (AD)
+patients and controls (CN) to an external data set and to the task of prediction of conversion to AD
+in individuals with mild cognitive impairment (MCI). We used a conventional support vector machine
+(SVM) and a deep convolutional neural network (CNN) approach based on structural MRI scans that
+underwent either minimal pre-processing or more extensive pre-processing into modulated gray matter
+(GM) maps. Classifiers were optimized and evaluated using cross-validation in the Alzheimer's
+Disease Neuroimaging Initiative (ADNI; 334 AD, 520 CN). Trained classifiers were subsequently
+applied to predict conversion to AD in ADNI MCI patients (231 converters, 628 non-converters) and in
+the independent Health-RI Parelsnoer Neurodegenerative Diseases Biobank data set. From this multi-
+center study representing a tertiary memory clinic population, we included 199 AD patients, 139
+participants with subjective cognitive decline, 48 MCI patients converting to dementia, and 91 MCI
+patients who did not convert to dementia. AD-CN classification based on modulated GM maps resulted
+in a similar area-under-the-curve (AUC) for SVM (0.940; 95%CI: 0.924-0.955) and CNN (0.933; 95%CI:
+0.918-0.948). Application to conversion prediction in MCI yielded significantly higher performance
+for SVM (AUC = 0.756; 95%CI: 0.720-0.788) than for CNN (AUC = 0.742; 95%CI: 0.709-0.776) (p<0.01 for
+McNemar's test). In external validation, performance was slightly decreased. For AD-CN, it again
+gave similar AUCs for SVM (0.896; 95%CI: 0.855-0.932) and CNN (0.876; 95%CI: 0.836-0.913). For
+prediction in MCI, performances decreased for both SVM (AUC = 0.665; 95%CI: 0.576-0.760) and CNN
+(AUC = 0.702; 95%CI: 0.624-0.786). Both with SVM and CNN, classification based on modulated GM maps
+significantly outperformed classification based on minimally processed images (p=0.01). Deep and
+conventional classifiers performed equally well for AD classification and their performance
+decreased only slightly when applied to the external cohort. We expect that this work on external
+validation contributes towards translation of machine learning to clinical practice.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/34118592
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+33) Title: DenseCNN: A Densely Connected CNN Model for Alzheimer's Disease Classification Based on Hippocampus MRI Data.
+
+Authors: Wang, Qinyong ; Li, Yanshu ; Zheng, Chunlei ; Xu, Rong ; 
+
+Summary:
+Alzheimer's Disease (AD) is a common type of dementia, affecting human memory, language ability and
+behavior. Hippocampus is an important biomarker for AD diagnosis. Previous hippocampus-based
+biomarker analyses mainly focused on volume, texture and shape of the bilateral hippocampus. 3D
+convolutional neural networks (CNNs) can understand and extract complex morphology features from
+Magnetic resonance imaging (MRI) and have recently been developed for hippocampus-based AD
+classification. However, existing CNN models often have highly complex structures and require large
+amounts of training data. Here we propose an accurate and lightweight Densely Connected 3D
+convolutional neural network (DenseCNN) for AD classification based on hippocampus segments.
+DenseCNN was trained on 746 and tested on 187 pairs of hippocampus from Alzheimer's Disease
+Neuroimaging Initiative (ADNI) databases. DenseCNN has an average accuracy of 0.898, sensitivity of
+0.985, specificity of 0.852, and area under curve (A UC) of0.979, which are better than or
+comparable to state-of-art approaches.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/33936504
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+34) Title: Bidirectional Mapping of Brain MRI and PET With 3D Reversible GAN for the Diagnosis of Alzheimer's Disease.
+
+Authors: Lin, Wanyun ; Lin, Weiming ; Chen, Gang ; Zhang, Hejun ; Gao, Qinquan ; Huang, Yechong ; Tong, Tong ; Du, Min ; 
+
+Summary:
+Combining multi-modality data for brain disease diagnosis such as Alzheimer's disease (AD) commonly
+leads to improved performance than those using a single modality. However, it is still challenging
+to train a multi-modality model since it is difficult in clinical practice to obtain complete data
+that includes all modality data. Generally speaking, it is difficult to obtain both magnetic
+resonance images (MRI) and positron emission tomography (PET) images of a single patient. PET is
+expensive and requires the injection of radioactive substances into the patient's body, while MR
+images are cheaper, safer, and more widely used in practice. Discarding samples without PET data is
+a common method in previous studies, but the reduction in the number of samples will result in a
+decrease in model performance. To take advantage of multi-modal complementary information, we first
+adopt the Reversible Generative Adversarial Network (RevGAN) model to reconstruct the missing data.
+After that, a 3D convolutional neural network (CNN) classification model with multi-modality input
+was proposed to perform AD diagnosis. We have evaluated our method on the Alzheimer's Disease
+Neuroimaging Initiative (ADNI) database, and compared the performance of the proposed method with
+those using state-of-the-art methods. The experimental results show that the structural and
+functional information of brain tissue can be mapped well and that the image synthesized by our
+method is close to the real image. In addition, the use of synthetic data is beneficial for the
+diagnosis and prediction of Alzheimer's disease, demonstrating the effectiveness of the proposed
+framework.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/33935634
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+35) Title: Use of a Sparse-Response Deep Belief Network and Extreme Learning Machine to Discriminate Alzheimer's Disease, Mild Cognitive Impairment, and Normal Controls Based on Amyloid PET/MRI Images.
+
+Authors: Zhou, Ping ; Jiang, Shuqing ; Yu, Lun ; Feng, Yabo ; Chen, Chuxin ; Li, Fang ; Liu, Yang ; Huang, Zhongxiong ; 
+
+Summary:
+In recent years, interest has grown in using computer-aided diagnosis (CAD) for Alzheimer's disease
+(AD) and its prodromal stage, mild cognitive impairment (MCI). However, existing CAD technologies
+often overfit data and have poor generalizability. In this study, we proposed a sparse-response deep
+belief network (SR-DBN) model based on rate distortion (RD) theory and an extreme learning machine
+(ELM) model to distinguish AD, MCI, and normal controls (NC). We used [<sup>18</sup>F]-AV45 positron
+emission computed tomography (PET) and magnetic resonance imaging (MRI) images from 340 subjects
+enrolled in the ADNI database, including 116 AD, 82 MCI, and 142 NC subjects. The model was
+evaluated using five-fold cross-validation. In the whole model, fast principal component analysis
+(PCA) served as a dimension reduction algorithm. An SR-DBN extracted features from the images, and
+an ELM obtained the classification. Furthermore, to evaluate the effectiveness of our method, we
+performed comparative trials. In contrast experiment 1, the ELM was replaced by a support vector
+machine (SVM). Contrast experiment 2 adopted DBN without sparsity. Contrast experiment 3 consisted
+of fast PCA and an ELM. Contrast experiment 4 used a classic convolutional neural network (CNN) to
+classify AD. Accuracy, sensitivity, specificity, and area under the curve (AUC) were examined to
+validate the results. Our model achieved 91.68% accuracy, 95.47% sensitivity, 86.68% specificity,
+and an AUC of 0.87 separating between AD and NC groups; 87.25% accuracy, 79.74% sensitivity, 91.58%
+specificity, and an AUC of 0.79 separating MCI and NC groups; and 80.35% accuracy, 85.65%
+sensitivity, 72.98% specificity, and an AUC of 0.71 separating AD and MCI groups, which gave better
+classification than other models assessed.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/33537334
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+36) Title: Diagnosing Alzheimer's Disease Based on Multiclass MRI Scans using Transfer Learning Techniques.
+
+Authors: Prakash, Deekshitha ; Madusanka, Nuwan ; Bhattacharjee, Subrata ; Kim, Cho-Hee ; Park, Hyeon-Gyun ; Choi, Heung-Kook ; 
+
+Summary:
+To prevent Alzheimer's disease (AD) from progressing to dementia, early prediction and
+classification of AD are important and they play a crucial role in medical image analysis.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/33504310
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+37) Title: Identification of Alzheimer's disease using a convolutional neural network model based on T1-weighted magnetic resonance imaging.
+
+Authors: Bae, Jong Bin ; Lee, Subin ; Jung, Wonmo ; Park, Sejin ; Kim, Weonjin ; Oh, Hyunwoo ; Han, Ji Won ; Kim, Grace Eun ; Kim, Jun Sung ; Kim, Jae Hyoung ; Kim, Ki Woong ; 
+
+Summary:
+The classification of Alzheimer's disease (AD) using deep learning methods has shown promising
+results, but successful application in clinical settings requires a combination of high accuracy,
+short processing time, and generalizability to various populations. In this study, we developed a
+convolutional neural network (CNN)-based AD classification algorithm using magnetic resonance
+imaging (MRI) scans from AD patients and age/gender-matched cognitively normal controls from two
+populations that differ in ethnicity and education level. These populations come from the Seoul
+National University Bundang Hospital (SNUBH) and Alzheimer's Disease Neuroimaging Initiative (ADNI).
+For each population, we trained CNNs on five subsets using coronal slices of T1-weighted images that
+cover the medial temporal lobe. We evaluated the models on validation subsets from both the same
+population (within-dataset validation) and other population (between-dataset validation). Our models
+achieved average areas under the curves of 0.91-0.94 for within-dataset validation and 0.88-0.89 for
+between-dataset validation. The mean processing time per person was 23-24 s. The within-dataset and
+between-dataset performances were comparable between the ADNI-derived and SNUBH-derived models.
+These results demonstrate the generalizability of our models to different patients with different
+ethnicities and education levels, as well as their potential for deployment as fast and accurate
+diagnostic support tools for AD.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/33335244
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+38) Title: Longitudinal Pooling & Consistency Regularization to Model Disease Progression From MRIs.
+
+Authors: Ouyang, Jiahong ; Zhao, Qingyu ; Sullivan, Edith V ; Pfefferbaum, Adolf ; Tapert, Susan F ; Adeli, Ehsan ; Pohl, Kilian M ; 
+
+Summary:
+Many neurological diseases are characterized by gradual deterioration of brain structure
+andfunction. Large longitudinal MRI datasets have revealed such deterioration, in part, by applying
+machine and deep learning to predict diagnosis. A popular approach is to apply Convolutional Neural
+Networks (CNN) to extract informative features from each visit of the longitudinal MRI and then use
+those features to classify each visit via Recurrent Neural Networks (RNNs). Such modeling neglects
+the progressive nature of the disease, which may result in clinically implausible classifications
+across visits. To avoid this issue, we propose to combine features across visits by coupling feature
+extraction with a novel longitudinal pooling layer and enforce consistency of the classification
+across visits in line with disease progression. We evaluate the proposed method on the longitudinal
+structural MRIs from three neuroimaging datasets: Alzheimer's Disease Neuroimaging Initiative (ADNI,
+N=404), a dataset composed of 274 normal controls and 329 patients with Alcohol Use Disorder (AUD),
+and 255 youths from the National Consortium on Alcohol and NeuroDevelopment in Adolescence (NCANDA).
+In allthree experiments our method is superior to other widely used approaches for longitudinal
+classification thus making a unique contribution towards more accurate tracking of the impact of
+conditions on the brain. The code is available at https://github.com/ouyangjiahong/longitudinal-
+pooling.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/33270567
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+39) Title: Construction of MRI-Based Alzheimer's Disease Score Based on Efficient 3D Convolutional Neural Network: Comprehensive Validation on 7,902 Images from a Multi-Center Dataset.
+
+Authors: Yee, Evangeline ; Ma, Da ; Popuri, Karteek ; Wang, Lei ; Beg, Mirza Faisal ; 
+
+Summary:
+In recent years, many convolutional neural networks (CNN) have been proposed for the classification
+of Alzheimer's disease. Due to memory constraints, many of the proposed CNNs work at a 2D slice-
+level or 3D patch-level.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/33252079
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+40) Title: Automated MRI-Based Deep Learning Model for Detection of Alzheimer's Disease Process.
+
+Authors: Feng, Wei ; Halm-Lutterodt, Nicholas Van ; Tang, Hao ; Mecum, Andrew ; Mesregah, Mohamed Kamal ; Ma, Yuan ; Li, Haibin ; Zhang, Feng ; Wu, Zhiyuan ; Yao, Erlin ; Guo, Xiuhua ; 
+
+Summary:
+In the context of neuro-pathological disorders, neuroimaging has been widely accepted as a clinical
+tool for diagnosing patients with Alzheimer's disease (AD) and mild cognitive impairment (MCI). The
+advanced deep learning method, a novel brain imaging technique, was applied in this study to
+evaluate its contribution to improving the diagnostic accuracy of AD. Three-dimensional
+convolutional neural networks (3D-CNNs) were applied with magnetic resonance imaging (MRI) to
+execute binary and ternary disease classification models. The dataset from the Alzheimer's disease
+neuroimaging initiative (ADNI) was used to compare the deep learning performances across 3D-CNN,
+3D-CNN-support vector machine (SVM) and two-dimensional (2D)-CNN models. The outcomes of accuracy
+with ternary classification for 2D-CNN, 3D-CNN and 3D-CNN-SVM were [Formula: see text]%, [Formula:
+see text]% and [Formula: see text]% respectively. The 3D-CNN-SVM yielded a ternary classification
+accuracy of 93.71%, 96.82% and 96.73% for NC, MCI and AD diagnoses, respectively. Furthermore,
+3D-CNN-SVM showed the best performance for binary classification. Our study indicated that 'NC
+versus MCI' showed accuracy, sensitivity and specificity of 98.90%, 98.90% and 98.80%; 'NC versus
+AD' showed accuracy, sensitivity and specificity of 99.10%, 99.80% and 98.40%; and 'MCI versus AD'
+showed accuracy, sensitivity and specificity of 89.40%, 86.70% and 84.00%, respectively. This study
+clearly demonstrates that 3D-CNN-SVM yields better performance with MRI compared to currently
+utilized deep learning methods. In addition, 3D-CNN-SVM proved to be efficient without having to
+manually perform any prior feature extraction and is totally independent of the variability of
+imaging protocols and scanners. This suggests that it can potentially be exploited by untrained
+operators and extended to virtual patient imaging data. Furthermore, owing to the safety,
+noninvasiveness and nonirradiative properties of the MRI modality, 3D-CNN-SMV may serve as an
+effective screening option for AD in the general population. This study holds value in
+distinguishing AD and MCI subjects from normal controls and to improve value-based care of patients
+in clinical practice.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/32498641
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+41) Title: Convolutional neural networks for classification of Alzheimer's disease: Overview and reproducible evaluation.
+
+Authors: Wen, Junhao ; Thibeau-Sutre, Elina ; Diaz-Melo, Mauricio ; Samper-González, Jorge ; Routier, Alexandre ; Bottani, Simona ; Dormont, Didier ; Durrleman, Stanley ; Burgos, Ninon ; Colliot, Olivier ; 
+
+Summary:
+Numerous machine learning (ML) approaches have been proposed for automatic classification of
+Alzheimer's disease (AD) from brain imaging data. In particular, over 30 papers have proposed to use
+convolutional neural networks (CNN) for AD classification from anatomical MRI. However, the
+classification performance is difficult to compare across studies due to variations in components
+such as participant selection, image preprocessing or validation procedure. Moreover, these studies
+are hardly reproducible because their frameworks are not publicly accessible and because
+implementation details are lacking. Lastly, some of these papers may report a biased performance due
+to inadequate or unclear validation or model selection procedures. In the present work, we aim to
+address these limitations through three main contributions. First, we performed a systematic
+literature review. We identified four main types of approaches: i) 2D slice-level, ii) 3D patch-
+level, iii) ROI-based and iv) 3D subject-level CNN. Moreover, we found that more than half of the
+surveyed papers may have suffered from data leakage and thus reported biased performance. Our second
+contribution is the extension of our open-source framework for classification of AD using CNN and
+T1-weighted MRI. The framework comprises previously developed tools to automatically convert ADNI,
+AIBL and OASIS data into the BIDS standard, and a modular set of image preprocessing procedures,
+classification architectures and evaluation procedures dedicated to deep learning. Finally, we used
+this framework to rigorously compare different CNN architectures. The data was split into
+training/validation/test sets at the very beginning and only the training/validation sets were used
+for model selection. To avoid any overfitting, the test sets were left untouched until the end of
+the peer-review process. Overall, the different 3D approaches (3D-subject, 3D-ROI, 3D-patch)
+achieved similar performances while that of the 2D slice approach was lower. Of note, the different
+CNN approaches did not perform better than a SVM with voxel-based features. The different approaches
+generalized well to similar populations but not to datasets with different inclusion criteria or
+demographical characteristics. All the code of the framework and the experiments is publicly
+available: general-purpose tools have been integrated into the Clinica software (www.clinica.run)
+and the paper-specific code is available at: https://github.com/aramis-lab/AD-DL.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/32417716
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+42) Title: Brain MRI analysis using a deep learning based evolutionary approach.
+
+Authors: Shahamat, Hossein ; Saniee Abadeh, Mohammad ; 
+
+Summary:
+Convolutional neural network (CNN) models have recently demonstrated impressive performance in
+medical image analysis. However, there is no clear understanding of why they perform so well, or
+what they have learned. In this paper, a three-dimensional convolutional neural network (3D-CNN) is
+employed to classify brain MRI scans into two predefined groups. In addition, a genetic algorithm
+based brain masking (GABM) method is proposed as a visualization technique that provides new
+insights into the function of the 3D-CNN. The proposed GABM method consists of two main steps. In
+the first step, a set of brain MRI scans is used to train the 3D-CNN. In the second step, a genetic
+algorithm (GA) is applied to discover knowledgeable brain regions in the MRI scans. The
+knowledgeable regions are those areas of the brain which the 3D-CNN has mostly used to extract
+important and discriminative features from them. For applying GA on the brain MRI scans, a new
+chromosome encoding approach is proposed. The proposed framework has been evaluated using ADNI
+(including 140 subjects for Alzheimer's disease classification) and ABIDE (including 1000 subjects
+for Autism classification) brain MRI datasets. Experimental results show a 5-fold classification
+accuracy of 0.85 for the ADNI dataset and 0.70 for the ABIDE dataset. The proposed GABM method has
+extracted 6 to 65 knowledgeable brain regions in ADNI dataset (and 15 to 75 knowledgeable brain
+regions in ABIDE dataset). These regions are interpreted as the segments of the brain which are
+mostly used by the 3D-CNN to extract features for brain disease classification. Experimental results
+show that besides the model interpretability, the proposed GABM method has increased final
+performance of the classification model in some cases with respect to model parameters.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/32259762
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+43) Title: Alzheimer's disease diagnosis from diffusion tensor images using convolutional neural networks.
+
+Authors: Marzban, Eman N ; Eldeib, Ayman M ; Yassine, Inas A ; Kadah, Yasser M ; 
+
+Summary:
+Machine learning algorithms are currently being implemented in an escalating manner to classify
+and/or predict the onset of some neurodegenerative diseases; including Alzheimer's Disease (AD);
+this could be attributed to the fact of the abundance of data and powerful computers. The objective
+of this work was to deliver a robust classification system for AD and Mild Cognitive Impairment
+(MCI) against healthy controls (HC) in a low-cost network in terms of shallow architecture and
+processing. In this study, the dataset included was downloaded from the Alzheimer's disease
+neuroimaging initiative (ADNI). The classification methodology implemented was the convolutional
+neural network (CNN), where the diffusion maps, and gray-matter (GM) volumes were the input images.
+The number of scans included was 185, 106, and 115 for HC, MCI and AD respectively. Ten-fold cross-
+validation scheme was adopted and the stacked mean diffusivity (MD) and GM volume produced an AUC of
+0.94 and 0.84, an accuracy of 93.5% and 79.6%, a sensitivity of 92.5% and 62.7%, and a specificity
+of 93.9% and 89% for AD/HC and MCI/HC classification respectively. This work elucidates the impact
+of incorporating data from different imaging modalities; i.e. structural Magnetic Resonance Imaging
+(MRI) and Diffusion Tensor Imaging (DTI), where deep learning was employed for the aim of
+classification. To the best of our knowledge, this is the first study assessing the impact of having
+more than one scan per subject and propose the proper maneuver to confirm the robustness of the
+system. The results were competitive among the existing literature, which paves the way for
+improving medications that could slow down the progress of the AD or prevent it.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/32208428
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+44) Title: A multi-model deep convolutional neural network for automatic hippocampus segmentation and classification in Alzheimer's disease.
+
+Authors: Liu, Manhua ; Li, Fan ; Yan, Hao ; Wang, Kundong ; Ma, Yixin ; Shen, Li ; Xu, Mingqing ; 
+
+Summary:
+Alzheimer's disease (AD) is a progressive and irreversible brain degenerative disorder. Mild
+cognitive impairment (MCI) is a clinical precursor of AD. Although some treatments can delay its
+progression, no effective cures are available for AD. Accurate early-stage diagnosis of AD is vital
+for the prevention and intervention of the disease progression. Hippocampus is one of the first
+affected brain regions in AD. To help AD diagnosis, the shape and volume of the hippocampus are
+often measured using structural magnetic resonance imaging (MRI). However, these features encode
+limited information and may suffer from segmentation errors. Additionally, the extraction of these
+features is independent of the classification model, which could result in sub-optimal performance.
+In this study, we propose a multi-model deep learning framework based on convolutional neural
+network (CNN) for joint automatic hippocampal segmentation and AD classification using structural
+MRI data. Firstly, a multi-task deep CNN model is constructed for jointly learning hippocampal
+segmentation and disease classification. Then, we construct a 3D Densely Connected Convolutional
+Networks (3D DenseNet) to learn features of the 3D patches extracted based on the hippocampal
+segmentation results for the classification task. Finally, the learned features from the multi-task
+CNN and DenseNet models are combined to classify disease status. Our method is evaluated on the
+baseline T1-weighted structural MRI data collected from 97 AD, 233 MCI, 119 Normal Control (NC)
+subjects in the Alzheimer's Disease Neuroimaging Initiative (ADNI) database. The proposed method
+achieves a dice similarity coefficient of 87.0% for hippocampal segmentation. In addition, the
+proposed method achieves an accuracy of 88.9% and an AUC (area under the ROC curve) of 92.5% for
+classifying AD vs. NC subjects, and an accuracy of 76.2% and an AUC of 77.5% for classifying MCI vs.
+NC subjects. Our empirical study also demonstrates that the proposed multi-model method outperforms
+the single-model methods and several other competing methods.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/31837471
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+45) Title: Classification and Visualization of Alzheimer's Disease using Volumetric Convolutional Neural Network and Transfer Learning.
+
+Authors: Oh, Kanghan ; Chung, Young-Chul ; Kim, Ko Woon ; Kim, Woo-Sung ; Oh, Il-Seok ; 
+
+Summary:
+Recently, deep-learning-based approaches have been proposed for the classification of neuroimaging
+data related to Alzheimer's disease (AD), and significant progress has been made. However, end-to-
+end learning that is capable of maximizing the impact of deep learning has yet to receive much
+attention due to the endemic challenge of neuroimaging caused by the scarcity of data. Thus, this
+study presents an approach meant to encourage the end-to-end learning of a volumetric convolutional
+neural network (CNN) model for four binary classification tasks (AD vs. normal control (NC),
+progressive mild cognitive impairment (pMCI) vs. NC, stable mild cognitive impairment (sMCI) vs. NC
+and pMCI vs. sMCI) based on magnetic resonance imaging (MRI) and visualizes its outcomes in terms of
+the decision of the CNNs without any human intervention. In the proposed approach, we use
+convolutional autoencoder (CAE)-based unsupervised learning for the AD vs. NC classification task,
+and supervised transfer learning is applied to solve the pMCI vs. sMCI classification task. To
+detect the most important biomarkers related to AD and pMCI, a gradient-based visualization method
+that approximates the spatial influence of the CNN model's decision was applied. To validate the
+contributions of this study, we conducted experiments on the ADNI database, and the results
+demonstrated that the proposed approach achieved the accuracies of 86.60% and 73.95% for the AD and
+pMCI classification tasks respectively, outperforming other network models. In the visualization
+results, the temporal and parietal lobes were identified as key regions for classification.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/31796817
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+46) Title: Cortical graph neural network for AD and MCI diagnosis and transfer learning across populations.
+
+Authors: Wee, Chong-Yaw ; Liu, Chaoqiang ; Lee, Annie ; Poh, Joann S ; Ji, Hui ; Qiu, Anqi ; 
+
+Summary:
+Combining machine learning with neuroimaging data has a great potential for early diagnosis of mild
+cognitive impairment (MCI) and Alzheimer's disease (AD). However, it remains unclear how well the
+classifiers built on one population can predict MCI/AD diagnosis of other populations. This study
+aimed to employ a spectral graph convolutional neural network (graph-CNN), that incorporated
+cortical thickness and geometry, to identify MCI and AD based on 3089 T<sub>1</sub>-weighted MRI
+data of the ADNI-2 cohort, and to evaluate its feasibility to predict AD in the ADNI-1 cohort
+(n = 3602) and an Asian cohort (n = 347). For the ADNI-2 cohort, the graph-CNN showed classification
+accuracy of controls (CN) vs. AD at 85.8% and early MCI (EMCI) vs. AD at 79.2%, followed by CN vs.
+late MCI (LMCI) (69.3%), LMCI vs. AD (65.2%), EMCI vs. LMCI (60.9%), and CN vs. EMCI (51.8%). We
+demonstrated the robustness of the graph-CNN among the existing deep learning approaches, such as
+Euclidean-domain-based multilayer network and 1D CNN on cortical thickness, and 2D and 3D CNNs on
+T<sub>1</sub>-weighted MR images of the ADNI-2 cohort. The graph-CNN also achieved the prediction on
+the conversion of EMCI to AD at 75% and that of LMCI to AD at 92%. The find-tuned graph-CNN further
+provided a promising CN vs. AD classification accuracy of 89.4% on the ADNI-1 cohort and >90% on the
+Asian cohort. Our study demonstrated the feasibility to transfer AD/MCI classifiers learned from one
+population to the other. Notably, incorporating cortical geometry in CNN has the potential to
+improve classification performance.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/31491832
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+47) Title: RNN-based longitudinal analysis for diagnosis of Alzheimer's disease.
+
+Authors: Cui, Ruoxuan ; Liu, Manhua ; 
+
+Summary:
+Alzheimer's disease (AD) is an irreversible neurodegenerative disorder with progressive impairment
+of memory and other mental functions. Magnetic resonance images (MRI) have been widely used as an
+important imaging modality of brain for AD diagnosis and monitoring the disease progression. The
+longitudinal analysis of sequential MRIs is important to model and measure the progression of the
+disease along the time axis for more accurate diagnosis. Most existing methods extracted the
+features capturing the morphological abnormalities of brain and their longitudinal changes using
+MRIs and then designed a classifier to discriminate different groups. However, these methods have
+several limitations. First, since the feature extraction and classifier model are independent, the
+extracted features may not capture the full characteristics of brain abnormalities related to AD.
+Second, longitudinal MR images may be missing at some time points for some subjects, which results
+in difficulties for extraction of consistent features for longitudinal analysis. In this paper, we
+present a classification framework based on combination of convolutional and recurrent neural
+networks for longitudinal analysis of structural MR images in AD diagnosis. First, Convolutional
+Neural Networks (CNN) is constructed to learn the spatial features of MR images for the
+classification task. After that, recurrent Neural Networks (RNN) with cascaded three bidirectional
+gated recurrent units (BGRU) layers is constructed on the outputs of CNN at multiple time points for
+extracting the longitudinal features for AD classification. Instead of independently performing
+feature extraction and classifier training, the proposed method jointly learns the spatial and
+longitudinal features and disease classifier, which can achieve optimal performance. In addition,
+the proposed method can model the longitudinal analysis using RNN from the imaging data at various
+time points. Our method is evaluated with the longitudinal T1-weighted MR images of 830 participants
+including 198 AD, 403 mild cognitive impairment (MCI), and 229 normal controls (NC) subjects from
+Alzheimer's Disease Neuroimaging Initiative (ADNI) database. Experimental results show that the
+proposed method achieves classification accuracy of 91.33% for AD vs. NC and 71.71% for pMCI vs.
+sMCI, demonstrating the promising performance for longitudinal MR image analysis.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/30763637
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+48) Title: Automated classification of Alzheimer's disease and mild cognitive impairment using a single MRI and deep neural networks.
+
+Authors: Basaia, Silvia ; Agosta, Federica ; Wagner, Luca ; Canu, Elisa ; Magnani, Giuseppe ; Santangelo, Roberto ; Filippi, Massimo ; 
+
+Summary:
+We built and validated a deep learning algorithm predicting the individual diagnosis of Alzheimer's
+disease (AD) and mild cognitive impairment who will convert to AD (c-MCI) based on a single cross-
+sectional brain structural MRI scan. Convolutional neural networks (CNNs) were applied on 3D
+T1-weighted images from ADNI and subjects recruited at our Institute (407 healthy controls [HC],
+418 AD, 280 c-MCI, 533 stable MCI [s-MCI]). CNN performance was tested in distinguishing AD, c-MCI
+and s-MCI. High levels of accuracy were achieved in all the classifications, with the highest rates
+achieved in the AD vs HC classification tests using both the ADNI dataset only (99%) and the
+combined ADNI + non-ADNI dataset (98%). CNNs discriminated c-MCI from s-MCI patients with an
+accuracy up to 75% and no difference between ADNI and non-ADNI images. CNNs provide a powerful tool
+for the automatic individual patient diagnosis along the AD continuum. Our method performed well
+without any prior feature engineering and regardless the variability of imaging protocols and
+scanners, demonstrating that it is exploitable by not-trained operators and likely to be
+generalizable to unseen patient data. CNNs may accelerate the adoption of structural MRI in routine
+practice to help assessment and management of patients.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/30584016
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+49) Title: Hierarchical Fully Convolutional Network for Joint Atrophy Localization and Alzheimer's Disease Diagnosis Using Structural MRI.
+
+Authors: Lian, Chunfeng ; Liu, Mingxia ; Zhang, Jun ; Shen, Dinggang ; 
+
+Summary:
+Structural magnetic resonance imaging (sMRI) has been widely used for computer-aided diagnosis of
+neurodegenerative disorders, e.g., Alzheimer's disease (AD), due to its sensitivity to morphological
+changes caused by brain atrophy. Recently, a few deep learning methods (e.g., convolutional neural
+networks, CNNs) have been proposed to learn task-oriented features from sMRI for AD diagnosis, and
+achieved superior performance than the conventional learning-based methods using hand-crafted
+features. However, these existing CNN-based methods still require the pre-determination of
+informative locations in sMRI. That is, the stage of discriminative atrophy localization is isolated
+to the latter stages of feature extraction and classifier construction. In this paper, we propose a
+hierarchical fully convolutional network (H-FCN) to automatically identify discriminative local
+patches and regions in the whole brain sMRI, upon which multi-scale feature representations are then
+jointly learned and fused to construct hierarchical classification models for AD diagnosis. Our
+proposed H-FCN method was evaluated on a large cohort of subjects from two independent datasets
+(i.e., ADNI-1 and ADNI-2), demonstrating good performance on joint discriminative atrophy
+localization and brain disease diagnosis.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/30582529
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+50) Title: Decision Supporting Model for One-year Conversion Probability from MCI to AD using CNN and SVM.
+
+Authors: Shen, Ting ; Jiang, Jiehui ; Li, Yupeng ; Wu, Ping ; Zuo, Chuantao ; Yan, Zhuangzhi ; 
+
+Summary:
+Prediction of Alzheimer's disease (AD) from Mild Cognitive Impairment (MCI) has become popular in
+recent years. Especially, deep learning technique has been used to extract high-quality features and
+for classification in this topic. Whether the patient would converse from MCI into AD is a
+particular evaluation criteria in clinics. However, there is no such a conversion prediction model
+in literature. Therefore, the purpose of this study is to propose a decision supporting model based
+on deep learning and machine learning to predict the conversion probability from MCI into AD within
+one year. We analyzed 165 samples with MRI scans from Alzheimer's Disease Neuroimaging Initiative
+(ADNI) database, in which all MCI patients were converted into AD in different time span for
+conversion. In this model, we first extracted image features based on convolutional neural network
+(CNN) method, and then we used support vector machine (SVM) classifier to classify these features.
+The results showed that the classification accuracy using linear, polynomial and RBF kernel could
+achieve 91.0%, 90.0% and 92.3%. As a result, this study indicated that the decision supporting model
+is potential to be applied into predicting the conversion probability from MCI into AD within one
+year.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/30440502
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+51) Title: Multi-Modality Cascaded Convolutional Neural Networks for Alzheimer's Disease Diagnosis.
+
+Authors: Liu, Manhua ; Cheng, Danni ; Wang, Kundong ; Wang, Yaping ; 
+
+Summary:
+Accurate and early diagnosis of Alzheimer's disease (AD) plays important role for patient care and
+development of future treatment. Structural and functional neuroimages, such as magnetic resonance
+images (MRI) and positron emission tomography (PET), are providing powerful imaging modalities to
+help understand the anatomical and functional neural changes related to AD. In recent years, machine
+learning methods have been widely studied on analysis of multi-modality neuroimages for quantitative
+evaluation and computer-aided-diagnosis (CAD) of AD. Most existing methods extract the hand-craft
+imaging features after image preprocessing such as registration and segmentation, and then train a
+classifier to distinguish AD subjects from other groups. This paper proposes to construct cascaded
+convolutional neural networks (CNNs) to learn the multi-level and multimodal features of MRI and PET
+brain images for AD classification. First, multiple deep 3D-CNNs are constructed on different local
+image patches to transform the local brain image into more compact high-level features. Then, an
+upper high-level 2D-CNN followed by softmax layer is cascaded to ensemble the high-level features
+learned from the multi-modality and generate the latent multimodal correlation features of the
+corresponding image patches for classification task. Finally, these learned features are combined by
+a fully connected layer followed by softmax layer for AD classification. The proposed method can
+automatically learn the generic multi-level and multimodal features from multiple imaging modalities
+for classification, which are robust to the scale and rotation variations to some extent. No image
+segmentation and rigid registration are required in pre-processing the brain images. Our method is
+evaluated on the baseline MRI and PET images of 397 subjects including 93 AD patients, 204 mild
+cognitive impairment (MCI, 76 pMCI +128 sMCI) and 100 normal controls (NC) from Alzheimer's Disease
+Neuroimaging Initiative (ADNI) database. Experimental results show that the proposed method achieves
+an accuracy of 93.26% for classification of AD vs. NC and 82.95% for classification pMCI vs. NC,
+demonstrating the promising classification performance.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/29572601
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+52) Title: Alzheimer's disease diagnostics by a 3D deeply supervised adaptable convolutional network.
+
+Authors: Hosseini-Asl, Ehsan ; Ghazal, Mohammed ; Mahmoud, Ali ; Aslantas, Ali ; Shalaby, Ahmed M ; Casanova, Manual F ; Barnes, Gregory N ; Gimel'farb, Georgy ; Keynton, Robert ; El-Baz, Ayman ; 
+
+Summary:
+Early diagnosis is playing an important role in preventing progress of the Alzheimer's disease (AD).
+This paper proposes to improve the prediction of AD with a deep 3D Convolutional Neural Network
+(3D-CNN), which can show generic features capturing AD biomarkers extracted from brain images, adapt
+to different domain datasets, and accurately classify subjects with improved fine-tuning method. The
+3D-CNN is built upon a convolutional autoencoder, which is pre-trained to capture anatomical shape
+variations in structural brain MRI scans for source domain. Fully connected upper layers of the
+3D-CNN are then fine-tuned for each task-specific AD classification in target domain. In this paper,
+deep supervision algorithm is used to improve the performance of already proposed 3D Adaptive CNN.
+Experiments on the ADNI MRI dataset without skull-stripping preprocessing have shown that the
+proposed 3D Deeply Supervised Adaptable CNN outperforms several proposed approaches, including
+3D-CNN model, other CNN-based methods and conventional classifiers by accuracy and robustness.
+Abilities of the proposed network to generalize the features learnt and adapt to other domains have
+been validated on the CADDementia dataset.
+
+Link:
+https://pubmed.ncbi.nlm.nih.gov/28930562
+----------------------------------------------------------------------------------------------------
