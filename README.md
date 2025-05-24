@@ -1,4 +1,4 @@
-# Literature-Finders
+# ADNI CNN Research Collector
 
 The scripts were used for launching a literature review, with the main focus on the study of CNN models, which use MRIs of the ADNI database in order to classify patients according to the stage of AD disease. For this purpose the databases used were PubMed and ArXiv.
 
