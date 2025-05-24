@@ -5,6 +5,7 @@ In the context of the author's thesis, a literature review was carried out, with
 ## Requirements
 
 ```
+python==3.8.18
 biopython==1.83
 pandas==1.3.4
 requests==2.31.0
