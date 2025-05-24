@@ -22,4 +22,7 @@ In the `txt` and `csv` directories the two exported files from each script can b
 
 ## Details
 
-The scripts contain functions for searching the two database using the same keywords: `ADNI`, `MRI`, `CNN`, and `classification` and also functions for extracting the two final csv and txt files.
+The scripts contain functions for searching the two databases using the same keywords: `ADNI`, `MRI`, `CNN`, and `classification` and also functions for extracting the two final csv and txt files.
+
+## Status
+> Done
