@@ -32,7 +32,7 @@ def fetch_details(pmids):
     :return: dict, with details of the papers as returned from their respective XML files
     """
     ids = ','.join(pmids)
-    Entrez.email = "efi10319952@gmail.com"
+    Entrez.email = "example@gmail.com"
     handle = Entrez.efetch(db='pubmed', retmode='xml', id=ids)
     results = Entrez.read(handle)
 
